@@ -20,6 +20,7 @@ for (i in 1:4){
 }
 
 print(i)
+
 while (i<5){
   print(i)
   i <- i + 1
@@ -35,3 +36,22 @@ square <-function(x){
   squared <- x*x
   return(squared)
 }
+square(5)
+
+
+x = 1:10
+m <- matrix(x, nrow = 2, ncol = 5)
+print(m)
+l <- list(x=1:5, y = c('a','b'))
+print(l)
+l['y']
+
+df <- data.frame(x = 1:3, y = c('a','b','c'))
+print(df)
+df[[2]]
+View(df)   
+head(df)   
+nrow(df)
+ncol(df)
+dim(df)
+rnorm(10, 0, 1)
