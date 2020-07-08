@@ -9,3 +9,5 @@ sample <- c(1,2,3,4,5)
 # make a histogram
 hist(dataset)
 hist(sample)
+hist(runif(10))
+
