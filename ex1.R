@@ -1,3 +1,4 @@
+library(tidyverse)
 print('hello world')
 myphrase <- "goodbye"
 class(myphrase)
