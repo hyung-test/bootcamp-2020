@@ -1,5 +1,6 @@
 from datetime import datetime
 import time
+# Exercise: Print the Time
 
 # with datetime module
 now = datetime.now()
